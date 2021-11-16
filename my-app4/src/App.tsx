@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Contact from "./components/contacto";
+import ContactEmail from "./components/contacto-email";
 
 function App() {
   return (
@@ -9,9 +9,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-         Funcion  a función de contacto.
+         Funcion  a contacto email.
         </p>
-         <Contact  /> 
+         <ContactEmail />
       </header>
     </div>
   );
