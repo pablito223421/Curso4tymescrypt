@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import ContactEmail from "./components/contacto-email";
+import Fornite from "./pc/fornite"
 
 function App() {
   return (
@@ -9,9 +9,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-         Funcion  a contacto email.
+         Funcion con la carpeta PC y el archivo Fornite.
         </p>
-         <ContactEmail />
+         <Fornite />
       </header>
     </div>
   );
